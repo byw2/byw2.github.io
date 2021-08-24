@@ -1,0 +1,150 @@
+body,
+html {
+    font-family: "Futura PT", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+.padding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #4b4b4b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #4b4b4b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #4b4b4b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #4b4b4b, #f0f0f0);
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    width: 100%; /* Full width */
+    border-bottom: 1px solid #dadada;
+    z-index: 2;
+    height: 70px;
+}
+
+.nav-item a {
+    color: rgb(15, 15, 15);
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* BIOGRAPHY */
+
+.landing {
+    width: 80%;
+}
+
+.landing i {
+    font-size: 50px;
+}
+
+.typing {
+    font-weight: 600;
+}
+
+#email:hover,
+#github:hover,
+#linkedin:hover {
+    text-shadow: 0.5px 0.5px 0.5px rgb(221, 221, 221);
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* SKILLS */
+.skills {
+    line-height: 1.2;
+}
+
+.skills-header {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.yello {
+    color: rgb(197, 181, 38);
+}
+
+/* EXPERIENCE */
+
+.experience {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.experience img {
+    transition: transform 0.2s;
+}
+.experience img:hover {
+    transform: scale(1.1);
+}
+
+.experience i {
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+}
+
+.experience i:hover {
+    cursor: pointer;
+}
+
+.exp-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.exp-organization {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.org-descrip {
+    font-size: 14px;
+    display: none;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    color: rgb(43, 43, 43);
+    max-width: 650px;
+}
+
+.exp-date {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(124, 124, 124);
+    margin-top: 1rem;
+}
+
+/* PROJECTS */
+
+.project {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* .card {
+    z-index: -1;
+} */
+
+/* CONTACT */
+.contact i {
+    font-size: 25px;
+    padding-right: 10px;
+}

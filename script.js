@@ -1,3 +1,4 @@
+// Toggle button
 $(document).ready(function () {
     $(".exp-organization")
         .find("i")
@@ -6,8 +7,8 @@ $(document).ready(function () {
         });
 });
 
-// list of texts
-const texts = ["Hi, I'm Brendan!"];
+// Typing for Biography
+const texts = ["Hi, I'm Brendan Wang!"];
 let count = 0;
 let index = "";
 let currentText = "";

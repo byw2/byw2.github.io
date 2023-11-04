@@ -17,7 +17,7 @@
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <!-- <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li> -->
             </ul>
     </div>
     <!-- Biography -->
@@ -30,12 +30,10 @@
             <div class="col-12 col-md-7">
                 <div class="landing">
                     <h1 class="mb-4 typing"></h1>
-                    <p class="bio">I am a fourth-year student at
+                    <p class="bio">I am a first-year Master's student at
                     Princeton University studying Computer Science with
-                    a minor in Statistics and Machine Learning. My interests include 
-                    machine learning, computational biology, and data science. I have experience
-                    developing software and applications for nonprofits and firms, including
-                    a hospital organization and a pharmaceutical firm. 
+                    a focus in computational biology. My interests include 
+                    machine learning, computational biology, and data science. 
                     </p>
                     <p>My passion is to leverage technology and machine
                     learning to make advancements in healthcare and
@@ -59,31 +57,26 @@
     <div class="container-fluid bg-light padding py-5">
         <h3><strong><center>EDUCATION</center></strong></h3>
         <hr>
-        <div class="skills row d-flex justify-content-center">
-            <div class="col-12 col-md-3">
-                <p class="skills-header">School</p>
-                <p><strong>Princeton University: </strong> Class of 2023</p>
-                <p><strong>Degree:</strong> Bachelor of Science in Engineering</p>
-                <p><strong>Major:</strong> Computer Science</p>
-                <p><strong>Minor:</strong> Statistics and Machine
-                Learning</p>
-                <p><strong>Honors:</strong> Tau Beta Pi Engineering Society</p>
+        <div class="skills row d-flex justify-content-center mt-4">
+            <div class="col-12 col-md-9">
+                <p class="ed-title"><strong>Princeton University</strong>: M.S.E. in Computer Science, 2023 - current</p> 
+                <p class="ed-title"><strong>Princeton University</strong>: B.S.E. in Computer Science, 2019 - 2023</p> 
             </div>
-            <div class="col-12 col-md-3">
+            <!-- <div class="col-12 col-md-4">
                 <p class="skills-header">Relevant Coursework</p>
-                <p>Machine Learning</p>
-                <p>Algorithms and Data Structures</p>
+                <p>Machine Learning/Deep Learning</p>
                 <p>Genomics and Computational Biology</p>
+                <p>Algorithms and Data Structures</p>
                 <p>Microbiology</p>
                 <p>Programming Techniques</p>
-            </div>
-            <div class="col-12 col-md-3">
+            </div> -->
+            <!-- <div class="col-12 col-md-3">
                 <p class="skills-header">Activities</p>
                 <p>Manna Christian Fellowship</p>
                 <p>Envision</p>
                 <p>English Language Conversation Partner</p>
                 <p>Statistics and Machine Learning Student Ambassador</p>
-            </div>
+            </div> -->
         </div>
         <div id="skills"></div>
     </div>
@@ -92,20 +85,20 @@
         <hr>
         <div class="skills row d-flex justify-content-center">
             <div class="col-12 col-md-3">
-                <p class="skills-header">Technology</p>
+                <p class="skills-header">ML and Data Science</p>
                 <p>Python (PyTorch, Pandas, Numpy) </p>
+                <p>SQL</p>
                 <p>R</p>
-                <p>Javascript</p>
-                <p>Golang</p>
-                <p>Java/C</p>
+                <p>Statistics</p>
+                <p>Probability</p>
             </div>
             <div class="col-12 col-md-3">
-                <p class="skills-header">Design</p>
-                <p>React</p>
-                <p>jQuery/Bootstrap</p>
-                <p>Flask (Python)</p>
-                <p>HTML/CSS/Javascript</p>
-                <p>Sketch</p>
+                <p class="skills-header">Programming</p>
+                <p>Java</p>
+                <p>Javascript</p>
+                <p>C</p>
+                <p>HTML/CSS/Javascript/Flask</p>
+                <p>Bash/Docker</p>
             </div>
             <div class="col-12 col-md-3">
                 <p class="skills-header">Languages</p>
@@ -123,6 +116,32 @@
         <div class="experience">
             <div class='row my-5'>
                 <div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
+                    <a href="https://pritykinlab.github.io/" target="_blank">
+                        <img src="resources/princeton.png" id="childrens" height="250" width="250">
+                    </a>
+                </div>
+                <div class="col-12 col-md-9">
+                    <p class="exp-title">Student Researcher</p>
+                    <p class="exp-organization">Pritykin Lab at Princeton University
+                            <i class="fas fa-info-circle"></i>
+                            <p class="org-descrip">A research lab at
+                            Lewis-Sigler Institute of Integrative
+                            Genomics and the Computer Science Department
+                            of Princeton University using "applied
+                            statistics, machine learning and efficient
+                            algorithms to address fundamental problems
+                            in biology and medicine by integrative
+                            analysis of multi-dimensional data."
+                            </p>
+                    </p>
+                    <p style="font-weight: 200;"></p>
+                    <p class="exp-date">Mar 2023 — present</p>
+                    <!-- <p>Investigating genome-wide binding mechanisms of <em>CTCF</em> protein using machine learning.</p> -->
+                    <p><strong>Tools:</strong> Python, Pandas, PyTorch, Bioinformatics</p>
+                </div>
+            </div>
+            <div class='row my-5'>
+                <div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
                     <a href="https://www.recursion.com/" target="_blank">
                         <img src="resources/recursion.png" id="childrens" height="250" width="250">
                     </a>
@@ -138,9 +157,9 @@
                     </p>
                     <p style="font-weight: 200;"></p>
                     <p class="exp-date">May 2022 — Aug 2022</p>
-                    <p>• Developed open-source scheduling tool with team for over 60 employees across company</p>
-                    <p>• Designed and deployed PostgreSQL database with REST API for storing transcriptomic data</p>
-                    <p>• Built key front-end/back-end components of transcriptomics platform</p>
+                    <!-- <p>• Developed open-source scheduling tool with team for over 60 employees across company</p> -->
+                    <!-- <p>• Designed and deployed PostgreSQL database with REST API for storing transcriptomic data</p> -->
+                    <!-- <p>• Built key front-end/back-end components of transcriptomics platform</p> -->
                     <p><strong>Tools:</strong> Python, React, SQL, Pandas</p>
                 </div>
             </div>
@@ -162,9 +181,9 @@
                     </p>
                     <p style="font-weight: 200;"></p>
                     <p class="exp-date">Jun 2021 — Aug 2021</p>
-                    <p>• Programmed deep-learning module to automate segmentation task for brain tumor</p>
-                    <p>• Ran and analyzed over 25 training and validation experiments using brain-MRI data</p>
-                    <p>• Researched and applied deep-learning techniques to achieve state-of-the-art metrics of 65-70%</p>
+                    <!-- <p>• Programmed deep-learning module to automate segmentation task for brain tumor</p> -->
+                    <!-- <p>• Ran and analyzed over 25 training and validation experiments using brain-MRI data</p> -->
+                    <!-- <p>• Researched and applied deep-learning techniques to achieve state-of-the-art metrics of 65-70%</p> -->
                     <p><strong>Tools:</strong> PyTorch, MONAI, Python, ITK-SNAP</p>
                     <a
                     href="https://docs.google.com/document/d/1XDEvjWl4GyEXYAHaJ8dSFkRJ9giPvKeO/edit?usp=sharing&ouid=116419592363753036037&rtpof=true&sd=true"
@@ -191,8 +210,8 @@
                         </p>
                     </p>
                     <p class="exp-date">Feb 2021 — May 2021</p>
-                    <p>• Developed web application with team to facilitate coding workshops for girls worldwide
-                    <p>• Spearheaded UI design and integrated visual content into app using Cloudinary API</p>
+                    <!-- <p>• Developed web application with team to facilitate coding workshops for girls worldwide -->
+                    <!-- <p>• Spearheaded UI design and integrated visual content into app using Cloudinary API</p> -->
                     <p><strong>Tools:</strong> HTML, CSS, Javascript, Flask, Python, jQuery, Ajax, SQL, D3.js, Bootstrap</p>
                     <a href="https://codeyourchances-workshop-app.herokuapp.com/" style="text-decoration: none;" target="_blank">
                         <button type="button" class="btn btn-outline-primary">Application</button>
@@ -217,8 +236,8 @@
                         </p>
                     </p>
                     <p class="exp-date">Dec 2020 — Jan 2021</p>
-                    <p>• Devoted over 115 hours to code and test software to ensure smooth user experience</p>
-                    <p>• Collaborated with startup team to manage project in weekly meetings</p>
+                    <!-- <p>• Devoted over 115 hours to code and test software to ensure smooth user experience</p> -->
+                    <!-- <p>• Collaborated with startup team to manage project in weekly meetings</p> -->
                 </div>
             </div>
             <div class='row my-5'>
@@ -241,21 +260,21 @@
                             brighter future.
                         </p>
                     </p>
-                    <p class="exp-date">Jun 2020 — Current</p>
-                    <p>• Designs internal components of website, leading to an over 150% increase in new visitors</p>
-                    <p>• Administers newsletter team to publish monthly content for over 1,000 subscribers</p>
-                    <p>• Manages the design of publicity and branding
-                    materials, including flyers,
-                    prospectus, and posters</p>
+                    <p class="exp-date">Jun 2020 — May 2022</p>
+                    <!-- <p>• Designs internal components of website, leading to an over 150% increase in new visitors</p> -->
+                    <!-- <p>• Administers newsletter team to publish monthly content for over 1,000 subscribers</p> -->
+                    <!-- <p>• Manages the design of publicity and branding -->
+                    <!-- materials, including flyers, -->
+                    <!-- prospectus, and posters</p> -->
                     <a href="https://www.envision-future.org/" style="text-decoration: none;" target="_blank">
                         <button type="button" class="btn btn-outline-success">Website</button>
                     </a>
                 </div>
             </div>
         </div>
-        <div id="projects"></div>
-    </div>
-    <div class="container-fluid py-5 padding">
+        <!-- <div id="projects"></div> -->
+    <!-- </div> -->
+    <!-- <div class="container-fluid py-5 padding">
         <h3><strong><center>PROJECTS</center></strong></h3>
         <hr>
         <div class="row project">
@@ -285,7 +304,7 @@
                 </div>
             </div>
         </div>   
-    </div>
+    </div> -->
     <div class="container-fluid py-5 bg-light padding">
         <div class='d-flex justify-content-center contact'>
             <a href="mailto:byw2@princeton.edu" target="_blank" style="text-decoration: none; color: black;">

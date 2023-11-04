@@ -45,6 +45,14 @@ button:focus {
     box-shadow: none !important;
 }
 
+/* EDUCATION */
+
+.ed-title {
+    font-size: 18px;
+    /* font-weight: 600; */
+    margin-top: 1rem;
+}
+
 /* BIOGRAPHY */
 
 .landing {

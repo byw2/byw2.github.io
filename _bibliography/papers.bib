@@ -2,7 +2,7 @@
 ---
 
 @article{enhancing_dr_bert_2024,
-  title={<a href="../../projects/1_project/">Enhancing DR-BERT for accurate classification of intrinsically disordered regions in protein structures<a>},
+  title={Enhancing DR-BERT for accurate classification of intrinsically disordered regions in protein structures},
   author={Wang, Brendan and Chen, Viola and Choi, Eugene},
   year={2023},
   month={Dec},
@@ -22,3 +22,68 @@ Overall, our work suggests that a combined approach of utilizing sequence and
 structural data can yield more accurate IDR predictions.},
   preview={rpb6-drb-scores.png},
 }
+
+@article{ctcf_modeling_2023,
+  title={Investigating the genome-wide binding mechanisms of human CTCF protein using machine learning},
+  author={Wang, Brendan},
+  year={2023},
+  month={August},
+  pdf={2023_ctcf_project.pdf},
+  journal={Princeton University},
+  selected={true},
+  abstract={The human CTCF protein is a well characterized protein that plays a key role in establishing chromatin architecture and gene regulation 
+  in human cells. While the sequence motif occurrences of CTCF are identical across all cell types, previous work has suggested that CTCF binds to 
+  different regions within and across cell types. The mechanisms of the differential binding of CTCF to identical motif sequences within and across 
+  cell types remains to be further explored. This project investigates the impact various genomic factors have on CTCF binding, including DNA sequence, 
+  methylation, and other genomic features. We design a family of machine learning models that accurately model CTCF binding using sequence, methylation, 
+  and/or accessibility data as input. Through a series of ablation experiments, we demonstrate that adding immediate DNA sequence context flanking the 
+  CTCF motifs strongly increases model performance. Additionally, we find that adding methylation increases model performance although to a lesser extent. 
+  Collectively, these results suggest that region immediately surrounding the CTCF motifs contain  essential sequence information that strongly captures 
+  the features conducive to CTCF binding that can be attributed to sequence and methylation.},
+  preview={ctcf.png},
+}
+
+@article{abstractive_summarization_2022,
+  title={Enhancing the Performance of Abstractive Summarization on Large Text Corpora},
+  author={Wang, Brendan and Chen, Danqi},
+  year={2022},
+  month={May},
+  pdf={2022_cos_iw_paper.pdf},
+  journal={Princeton Computer Science Independent Work},
+  selected={true},
+  website={https://csml.princeton.edu/news/projects-csml-students-showcase-innovative-thinking-and-diversity-disciplines},
+  abstract={Recently, transformer models have achieved high qualitative and quantitative performances in
+the abstractive summarization of texts. However, existing challenges include the limited input size of models as well as grammatical and factual inconsistencies in generated summaries.
+Moreover, automatic evaluation metrics used for summarization including the ROUGE score
+have many limitations. Finally, there is a lack of work comparing the performance and
+computational costs of different state-of-the-art summarization models. In this work, we study
+ways to enhance abstractive summarization of the model T5-small using text shortening
+techniques and compare the performance of T5-small against the much larger state-of-the-art
+transformer model PEGASUS. Using the Multi-News dataset, we fine-tune and evaluate the
+T5-small and PEGASUS using the ROUGE metric, the BLEURT score, and human evaluation.
+Our results reveal that following text shortening, T5-small outperforms PEGASUS by about 7.5 in ROUGE-2 (an over 10% increase) and over 0.045 in BLEURT (an over 36% increase). Furthermore, the T5-small model demonstrates less memory and time usage for fine-tuning than PEGASUS.},
+  preview={t5.png},
+}
+
+@article{novel_slot_detection_2022,
+  title={Model Adjustments for Improving Novel Slot Detection},
+  author={Graf, Victoria and Teng, Ashley and Wang, Brendan},
+  year={2022},
+  month={May},
+  pdf={2022_novel_slot_detection_project.pdf},
+  journal={COS484: Natural Language Processing},
+  selected={false},
+  code={https://github.com/atenglens/484_final_project},
+  abstract={Novel Slot Detection (NSD) is a modified version of slot 
+  filling introduced by that allows slot types not in the predefined set 
+  to be identified at test time. Wu et al. (2021) propose a basic framework 
+  for a novel slot detection model involving an embedder, encoder, and classifier 
+  used for this new tagging task. The original model contained a BERT embedder and 
+  BiLSTM encoder. In this work, we propose three modifications to this framework to 
+  study model behavior: (1) adjustments to dropout and patience, (2) replacing the 
+  BERT embedder with ELMo and the OpenAI transformer, and (3) replacing the BiLSTM 
+  encoder with GRU and self-attention encoders. Using F1 scores and ROSE metrics, we find that the hyperparameter changes did not improve the performance, and the ELMo and OpenAI models achieve lower performance than the BERT model. We observe that GRU and self-attention models can outperform the BiLSTM model on some datasets, and that self-attention encoders are a promising future direction for improving the NSD task.},
+  preview={2022_nsd.png},
+}
+
+

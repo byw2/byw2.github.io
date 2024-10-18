@@ -7,7 +7,7 @@ subtitle: CS @ Princeton University
 profile:
   align: right
   image: Brendan_Wang_Profile.png
-  image_circular: true # crops the image to make it circular
+  image_circular: true # crops image to make it circular 
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>

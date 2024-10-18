@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: abstractive summarization of large text corpora
+description: Enhancing the Performance of Abstractive Summarization on Large Text Corpora.
 img: assets/img/3.jpg
-importance: 2
-category: work
+importance: 1
+category: nlp
 giscus_comments: true
 ---
 

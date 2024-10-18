@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: classifying intrinsically disordered protein regions
+description: Enhancing DR-BERT for accurate classification of intrinsically disordered regions in protein structures.
+img: assets/img/idr.gif
 importance: 1
-category: work
+category: comp bio
 related_publications: true
 ---
 
